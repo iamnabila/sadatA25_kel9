@@ -1,0 +1,7 @@
+Kesimpulan & Refleksi
+
+Jawaban terhadap rumusan masalah
+Sistem yang dibangun dapat menjawab dua permasalahan utama. Pertama, hasil pencarian kini diurutkan berdasarkan skor relevansi dan apabila skornya sama, diurutkan berdasarkan tahun terbit terbaru menggunakan Merge Sort. Kedua, sistem menyediakan fitur rekomendasi skripsi serupa berdasarkan kemiripan abstrak menggunakan Similarity Graph dan algoritma BFS, sehingga pengguna tidak perlu melakukan pencarian berulang untuk menemukan referensi yang berkaitan. 
+
+Refleksi mengenai peran struktur data dalam efektivitas penyelesaian proyek
+Proyek ini menunjukkan bahwa pemilihan struktur data yang tepat sangat menentukan efisiensi solusi. Penggunaan HashMap sebagai Inverted Index membuat pencarian jauh lebih cepat dibandingkan dengan pencarian linear. Graph terbukti tepat untuk merepresentasikan hubungan kemiripan antarskripsi yang bersifat banyak ke banyak, dan BFS (Breadth First Search) memungkinkan penelusuran skripsi serupa secara bertingkat. Merge Sort dipilih karena memberikan jaminan kompleksitas O(M log M) yang konsisten. Secara keseluruhan, kombinasi ArrayList, HashMap, dan Graph berhasil menyelesaikan permasalahan pencarian skripsi secara efektif dan efisien.
